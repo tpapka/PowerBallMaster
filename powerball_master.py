@@ -17,7 +17,5 @@ if __name__=="__main__":
         repeat = int(input("How many drawings would you like? "))
         if repeat > 0:
             drawing(repeat)
-        else:
-            print("You need to provide positive number")
     except:
-        pass
+        print("You need to provide positive number")
